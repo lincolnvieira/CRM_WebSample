@@ -11,11 +11,11 @@ namespace Evice.CRM.Sample.API.Controllers
     {
         private static List<Product> _products = new List<Product>
         {
-            new Product { Id = 1, Brand = "Samsung", Model = "S23", Price = 3.999m},
-            new Product { Id = 2, Brand = "Samsung", Model = "A50", Price = 1.299m},
-            new Product { Id = 3, Brand = "iPhone", Model = "13", Price = 5.999m},
-            new Product { Id = 4, Brand = "iPhone", Model = "12", Price = 4.999m},
-            new Product { Id = 5, Brand = "Motorola", Model = "G50", Price = 1.090m}
+            new Product { Id = 1, Brand = "Samsung", Model = "S23", Price = 3999.99m},
+            new Product { Id = 2, Brand = "Samsung", Model = "A50", Price = 1299.90m},
+            new Product { Id = 3, Brand = "iPhone", Model = "13", Price = 5999m},
+            new Product { Id = 4, Brand = "iPhone", Model = "12", Price = 4999m},
+            new Product { Id = 5, Brand = "Motorola", Model = "G50", Price = 1090.85m}
         };
 
         [HttpGet]
