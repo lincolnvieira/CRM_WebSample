@@ -1,1 +1,34 @@
-<p>product-edit works!</p>
+<div class="container main-container">
+    <h1>Cadastrar Produto</h1>
+    <hr>
+    <div class="row">
+        <div class="col-md-10">
+            <form [formGroup]="editProductFormGroup" (ngSubmit)="updateProduct()">
+                <div class="col-md-5">
+                    <mat-form-field appearance="outline">
+                        <mat-label>Marca</mat-label>
+                        <input matInput>
+                    </mat-form-field>
+                </div>
+                <div class="col-md-5">
+                    <mat-form-field appearance="outline">
+                        <mat-label>Modelo</mat-label>
+                        <input matInput>
+                    </mat-form-field>
+                </div>
+                <div class="col-md-5">
+                    <mat-form-field appearance="outline">
+                        <mat-label>Preço</mat-label>
+                        <input matInput>
+                    </mat-form-field>
+                </div>
+                <br>
+                <div class="form-group">
+                    <a class="btn btn-outline-secondary" href="/product/list">Voltar</a>
+                    &nbsp;
+                    <input type="submit" value="Editar" class="btn btn-primary">
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
